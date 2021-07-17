@@ -52,7 +52,7 @@ for i in dict_material:
 print(dict_csv)
 
 
-csv_columns = ['No','Name','Count']
+"""csv_columns = ['No','Name','Count']
 csv_file = "CountNames.csv"
 try:
     with open(csv_file, 'w') as csvfile:
@@ -61,4 +61,4 @@ try:
         for data in dict_csv:
             writer.writerow(data)
 except IOError:
-    print("I/O error")
+    print("I/O error")"""
